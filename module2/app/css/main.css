@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+
+
+body{
+	background-color: #4f9a8700;
+}
+
+main{
+    width: 70%;
+    background-color: #d4bd82;
+    box-shadow: 0 0 4px 10px #00000057;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3)
+}
+
+h1{
+	text-align:center; 
+	width:100%;
+	font-size: 48px;
+}
+
+.photo:hover{
+	transform:  scale(1.09) rotate(3deg);
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.7)
+}
+
+.photo1{
+	background-image: url(../img/img1.jpeg);
+}
+
+.photo2{
+	background-image: url(../img/img2.jpeg);
+}
+
+.photo3{
+	background-image: url(../img/img3.jpeg);
+}
+
+.photo4{
+	background-image: url(../img/img4.jpeg);
+}
+
+.photo5{
+	background-image: url(../img/img5.jpeg);
+}
+
+.photo6{
+	background-image: url(../img/img6.jpeg);
+}
+
+.photo7{
+	background-image: url(../img/img7.jpeg);
+}
+
+.photo8{
+	background-image: url(../img/img8.jpg);
+}
+
+.photo9{
+	background-image: url(../img/img9.jpeg);
+}
+.photo10{
+	background-image: url(../img/img10.jpeg);
+}
+.photo11{
+	background-image: url(../img/img11.jpeg);
+}
